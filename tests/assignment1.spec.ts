@@ -78,13 +78,13 @@ test.describe('Assignment 1: Singlish to Sinhala Automation', () => {
 
   test('Pos_Fun_0009: Compound Sentence', async ({ page }) => {
     await verifyAndLog(page, 'Pos_Fun_0009', 
-      'mama gedhara yanna hadhannee, eth vahina nisaa dhaenma yanna baee vagee.', 
+      'mama gedhara yanna hadhannee, eeth vahina nisaa dhaenma yanna baee vagee.', 
       'මම ගෙදර යන්න හදන්නේ, ඒත් වහින නිසා දැන්ම යන්න බෑ වගේ.');
   });
 
   test('Pos_Fun_0010: Polite Request', async ({ page }) => {
     await verifyAndLog(page, 'Pos_Fun_0010', 
-      'anee mata podi udhavvak karanna puluvandha? loku dheyak.', 
+      'anee mata podi udhavvak karanna puLuvandha? loku dheyak.', 
       'අනේ මට පොඩි උදව්වක් කරන්න පුළුවන්ද? ලොකු දෙයක්.');
   });
 
@@ -126,7 +126,7 @@ test.describe('Assignment 1: Singlish to Sinhala Automation', () => {
 
   test('Pos_Fun_0017: Paragraph', async ({ page }) => {
     await verifyAndLog(page, 'Pos_Fun_0017', 
-      'suLi kuNaatuva nisaa aethi vuu gQQvathuren saha naayayaeemvalin maarga sQQvarhana aDhikaariyata ayath paaraval 430k vinaasha velaa thiyenavaa. mee paaravalvala sampuurNa dhiga kiloomiitar 300k vithara venavaa kiyalaa pravaahana, mahaamaarga saha naagarika saQQvarDhana aemathi bimal rathnaayaka mahathaa paevasuvaa.', 
+      'suLi kuNaatuva nisaa aethi vuu gQQvathuren saha naayayaeemvalin maarga sQQvarDhana aDhikaariyata ayath paaraval 430k vinaasha velaa thiyenavaa. mee paaravalvala sampuurNa dhiga kiloomiitar 300k vithara venavaa kiyalaa pravaahana, mahaamaarga saha naagarika saQQvarDhana aemathi bimal rathnaayaka mahathaa paevasuvaa.', 
       'සුළි කුණාටුව නිසා ඇති වූ ගංවතුරෙන් සහ නායයෑම්වලින් මාර්ග සංවර්ධන අධිකාරියට අයත් පාරවල් 430ක් විනාශ වෙලා තියෙනවා. මේ පාරවල්වල සම්පූර්ණ දිග කිලෝමීටර් 300ක් විතර වෙනවා කියලා ප්‍රවාහන, මහාමාර්ග සහ නාගරික සංවර්ධන ඇමති බිමල් රත්නායක මහතා පැවසුවා.');
   });
 
@@ -138,13 +138,13 @@ test.describe('Assignment 1: Singlish to Sinhala Automation', () => {
 
   test('Pos_Fun_0019: Tech List', async ({ page }) => {
     await verifyAndLog(page, 'Pos_Fun_0019', 
-      'ID, NIC, SMS, MMS,  App URL, okkoma check karanna oonee. Zoom meeting ekak thiyenavaa. Documents tika attach karalaa mata email ekak evanna. Teams meeting ekee link eka WhatsApp karanna puLuvandha.', 
-      '  ID, NIC, SMS, MMS, App URL  ඔක්කොම check කරන්න  ඕනේ. Zoom meeting  එකක් තියෙනවා. Documents ටික attach කරලා මට email එකක් එවන්න. Teams meeting එකේ link එක WhatsApp කරන්න පුළුවන්ද?');
+      'ID, NIC, SMS, MMS,  App URL, okkoma check karanna oonee. Zoom meeting ekak thiyenavaa. Documents tika attach karalaa mata email ekak evanna. Teams meeting ekee link eka WhatsApp karanna puLuvandha?', 
+      '  ID, NIC, SMS, MMS, App URL,  ඔක්කොම check කරන්න  ඕනේ. Zoom meeting  එකක් තියෙනවා. Documents ටික attach කරලා මට email එකක් එවන්න. Teams meeting එකේ link එක WhatsApp කරන්න පුළුවන්ද?');
   });
 
   test('Pos_Fun_0020: Mixed Format', async ({ page }) => {
     await verifyAndLog(page, 'Pos_Fun_0020', 
-      'Rs. 5343 k  December 25 venidhaa USD 1500kuth ekka 7.30 ta geenna. 25/12/2025 saha 2026-05-21 dhavasvala vaeda thiyenavaa. kg, ml, cm, hariyatama maninna oonee. mama gedhara yanavaa. oyaa enavaadha maath ekka yanna? meeka nam godak vaediyi vagee mata hithenavaa.', 
+      'Rs. 5343 k  December 25 venidhaa USD 1500kuth ekka udhee 7.30ta geenna. 25/12/2025 saha 2026-05-21 dhavasvala vaeda thiyenavaa. kg, ml, cm, hariyatama maninna oonee. mama gedhara yanavaa. oyaa enavaadha maath ekka yanna? meeka nam godak vaediyi vagee mata hithenavaa.', 
       'Rs. 5343ක් December 25 වෙනිදා USD 1500කුත් එක්ක උදේ 7.30ට ගේන්න. 25/12/2025 සහ 2026-05-21 දවස්වල වැඩ තියෙනවා. kg, ml, cm හරියටම මනින්න ඕනේ. මම ගෙදර යනවා. ඔයා එනවාද මාත් එක්ක යන්න? මේක නම් ගොඩක් වැඩියි වගේ මට හිතෙනවා.');
   });
 
