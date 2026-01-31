@@ -145,7 +145,7 @@ test.describe('Assignment 1: Singlish to Sinhala Automation', () => {
   test('Pos_Fun_0020: Mixed Format', async ({ page }) => {
     await verifyAndLog(page, 'Pos_Fun_0020', 
       'Rs. 5343k  December 25 venidhaa USD 1500kuth ekka udhee 7.30ta geenna. 25/12/2025 saha 2026-05-21 dhavasvala vaeda thiyenavaa. kg, ml, cm, hariyatama maninna oonee. mama gedhara yanavaa. oyaa enavaadha maath ekka yanna? meeka nam godak vaediyi vagee mata hithenavaa.', 
-      'Rs. 5343ක් December 25 වෙනිදා USD 1500කුත් එක්ක උදේ 7.30ට ගේන්න. 25/12/2025 සහ 2026-05-21 දවස්වල වැඩ තියෙනවා. kg, ml, cm හරියටම මනින්න ඕනේ. මම ගෙදර යනවා. ඔයා එනවාද මාත් එක්ක යන්න? මේක නම් ගොඩක් වැඩියි වගේ මට හිතෙනවා.');
+      'Rs. 5343ක් December 25 වෙනිදා USD 1500කුත් එක්ක උදේ 7.30ට ගේන්න. 25/12/2025 සහ 2026-05-21 දවස්වල වැඩ තියෙනවා. kg, ml, cm, හරියටම මනින්න ඕනේ. මම ගෙදර යනවා. ඔයා එනවාද මාත් එක්ක යන්න? මේක නම් ගොඩක් වැඩියි වගේ මට හිතෙනවා.');
   });
 
   test('Pos_Fun_0021: Conversations', async ({ page }) => {
